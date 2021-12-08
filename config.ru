@@ -7,3 +7,5 @@ use Rack::MethodOverride
 ### use OtherController2
 ### use OtherController3
 run ApplicationController
+use TrashsController
+use TrashcansController
