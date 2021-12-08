@@ -4,7 +4,7 @@ class Trash < ActiveRecord::Base
     def new_trash
 =begin
     
-Create the new trash sent from the form
+Create the new trash sent from the form, Populate React Form With Created Trash group of 10
     
 =end
 
@@ -20,11 +20,7 @@ Create the new trash sent from the form
     end
 
     
-    
-    def fill_list
-=begin
-    Populate React Form With Created Trash group of 10
-=end
+
 
     end        
 end 
