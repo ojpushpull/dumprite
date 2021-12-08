@@ -1,3 +1,3 @@
 class Trashcan < ActiveRecord::Base
-    has_many :trashcans
+    has_many :trashs
 end

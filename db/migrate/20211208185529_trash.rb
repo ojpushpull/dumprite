@@ -5,6 +5,7 @@ class Trash < ActiveRecord::Migration[6.1]
       add_column :trashs, :metal, :boolean, default: false
       add_column :trashs, :paper, :boolean, default: false
       t.string :trash_name
+      t.integer :trashcan_id
     end
   end
 end
