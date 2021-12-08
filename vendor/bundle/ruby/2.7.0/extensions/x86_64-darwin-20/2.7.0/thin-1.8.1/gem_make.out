@@ -1,0 +1,17 @@
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+/Users/okerajohnson/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/okerajohnson/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20211208-27731-nz1dk7.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+make "DESTDIR=" clean
+
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+make "DESTDIR="
+compiling parser.c
+compiling thin.c
+linking shared-object thin_parser.bundle
+
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 thin_parser.bundle ./.gem.20211208-27731-1ltnru1

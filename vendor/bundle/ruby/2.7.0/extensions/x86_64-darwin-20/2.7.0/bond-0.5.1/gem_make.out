@@ -1,0 +1,16 @@
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+/Users/okerajohnson/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/okerajohnson/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20211208-27731-2j20rv.rb extconf.rb
+
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR="
+echo "This is a dummy extension"
+This is a dummy extension
+
+current directory: /Users/okerajohnson/dumprite/vendor/bundle/ruby/2.7.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" install
+echo "This is a dummy extension"
+This is a dummy extension
